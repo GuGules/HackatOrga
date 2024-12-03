@@ -7,23 +7,23 @@
       "RelativeMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|c:\\users\\gugul\\source\\repos\\hackatorga\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|C:\\Users\\gugul\\source\\repos\\HackatOrga\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|c:\\users\\gugul\\source\\repos\\hackatorga\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|C:\\Users\\gugul\\source\\repos\\HackatOrga\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|c:\\users\\gugul\\source\\repos\\hackatorga\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|C:\\Users\\gugul\\source\\repos\\HackatOrga\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|solutionrelative:properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|c:\\users\\gugul\\source\\repos\\hackatorga\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|C:\\Users\\gugul\\source\\repos\\HackatOrga\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|solutionrelative:properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|c:\\users\\gugul\\source\\repos\\hackatorga\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|C:\\Users\\gugul\\source\\repos\\HackatOrga\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}|HackatOrga.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,34 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 309,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-03T09:55:24.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Settings.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\Properties\\Settings.Designer.cs",
-              "RelativeDocumentMoniker": "Properties\\Settings.Designer.cs",
-              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\Properties\\Settings.Designer.cs",
-              "RelativeToolTip": "Properties\\Settings.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:55:24.431Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -85,6 +59,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-03T09:55:24.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:55:24.431Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Settings.settings",
               "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\Properties\\Settings.settings",
@@ -92,8 +90,31 @@
               "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\Properties\\Settings.settings",
               "RelativeToolTip": "Properties\\Settings.settings",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-12-03T09:55:24.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T09:55:24.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-12-03T09:55:24.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LICENSE",
+              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\LICENSE",
+              "RelativeDocumentMoniker": "LICENSE",
+              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\LICENSE",
+              "RelativeToolTip": "LICENSE",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-03T09:55:24.165Z"
             },
             {
               "$type": "Bookmark",
@@ -109,8 +130,7 @@
               "RelativeToolTip": "Properties\\Resources.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:55:24.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T09:55:24.366Z"
             },
             {
               "$type": "Document",
@@ -122,34 +142,7 @@
               "RelativeToolTip": "Properties\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:55:24.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-12-03T09:55:24.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LICENSE",
-              "DocumentMoniker": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\LICENSE",
-              "RelativeDocumentMoniker": "LICENSE",
-              "ToolTip": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\LICENSE",
-              "RelativeToolTip": "LICENSE",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-03T09:55:24.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T09:55:24.337Z"
             }
           ]
         }
