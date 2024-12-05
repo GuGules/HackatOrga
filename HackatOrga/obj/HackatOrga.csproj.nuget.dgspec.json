@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gugul\\source\\repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj": {}
+    "C:\\Users\\lpicart\\Source\\Repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gugul\\source\\repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj": {
+    "C:\\Users\\lpicart\\Source\\Repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
+        "projectUniqueName": "C:\\Users\\lpicart\\Source\\Repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
         "projectName": "HackatOrga",
-        "projectPath": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
-        "packagesPath": "C:\\Users\\gugul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gugul\\source\\repos\\HackatOrga\\HackatOrga\\obj\\",
+        "projectPath": "C:\\Users\\lpicart\\Source\\Repos\\HackatOrga\\HackatOrga\\HackatOrga.csproj",
+        "packagesPath": "C:\\Users\\lpicart\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lpicart\\Source\\Repos\\HackatOrga\\HackatOrga\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gugul\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lpicart\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,13 +39,28 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.*, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
