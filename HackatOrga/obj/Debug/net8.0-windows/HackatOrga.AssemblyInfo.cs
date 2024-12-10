@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HackatOrga")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a22f77ab0b76ea76a7e180afa4af2b22fabd01a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c61690ae8b52ee061ecdc920e0a6e8aa4f5a69f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HackatOrga")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HackatOrga")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
