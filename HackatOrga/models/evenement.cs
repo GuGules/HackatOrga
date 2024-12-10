@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HackatOrga.models;
 
 namespace HackatOrga.models
 {
@@ -16,7 +17,7 @@ namespace HackatOrga.models
         public DateTime date { get; set; }
         public TimeOnly duree { get; set; }
         public string salle { get; set; }
-        [ForeignKey(nameof(Hackathon))] /// clé étrangère
+        [ForeignKey(nameof(Hackathon))] 
         public int hackathonId { get; set; }
         public virtual Hackathon Hackathon { get; set; }
     }
@@ -24,6 +25,8 @@ namespace HackatOrga.models
     public class Atelier : Evenement
     {
         public int nbPlaces { get; set; }
+        [ForeignKey("evenementId")]
+        public ICollection<ParticipantAtelier> ParticipantAteliers { get; set; }
     }
 
     public class Conf : Evenement 
