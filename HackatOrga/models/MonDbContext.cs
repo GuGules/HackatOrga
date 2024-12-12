@@ -5,7 +5,7 @@ using HackatOrga.models; ///////mettre le nom du projet - ignorer l'erreur pour 
 
 namespace HackatOrga.Models ///////mettre le nom du projet
 {
-class MonDbContext : DbContext
+        class MonDbContext : DbContext
 {
         public virtual DbSet<Evenement> Evenements { get; set; }
         public virtual DbSet<Hackathon> Hackathons { get; set; }
