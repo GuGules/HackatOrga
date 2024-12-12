@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
-            dateTimePicker3 = new DateTimePicker();
-            numericUpDown1 = new NumericUpDown();
+            tbnom = new TextBox();
+            dtpdateDeb = new DateTimePicker();
+            dtpdateFin = new DateTimePicker();
+            dtpdateLim = new DateTimePicker();
+            nudnbPlaces = new NumericUpDown();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -40,53 +40,53 @@
             label5 = new Label();
             button1 = new Button();
             label6 = new Label();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)nudnbPlaces).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // tbnom
             // 
-            textBox1.Location = new Point(321, 159);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(200, 23);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            tbnom.Location = new Point(322, 170);
+            tbnom.Name = "tbnom";
+            tbnom.Size = new Size(200, 23);
+            tbnom.TabIndex = 0;
+            tbnom.TextChanged += textBox1_TextChanged;
             // 
-            // dateTimePicker1
+            // dtpdateDeb
             // 
-            dateTimePicker1.Location = new Point(321, 188);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 1;
-            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
+            dtpdateDeb.Location = new Point(322, 199);
+            dtpdateDeb.Name = "dtpdateDeb";
+            dtpdateDeb.Size = new Size(200, 23);
+            dtpdateDeb.TabIndex = 1;
+            dtpdateDeb.ValueChanged += dateTimePicker1_ValueChanged;
             // 
-            // dateTimePicker2
+            // dtpdateFin
             // 
-            dateTimePicker2.Location = new Point(321, 217);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 23);
-            dateTimePicker2.TabIndex = 2;
-            dateTimePicker2.ValueChanged += dateTimePicker2_ValueChanged;
+            dtpdateFin.Location = new Point(322, 228);
+            dtpdateFin.Name = "dtpdateFin";
+            dtpdateFin.Size = new Size(200, 23);
+            dtpdateFin.TabIndex = 2;
+            dtpdateFin.ValueChanged += dateTimePicker2_ValueChanged;
             // 
-            // dateTimePicker3
+            // dtpdateLim
             // 
-            dateTimePicker3.Location = new Point(321, 246);
-            dateTimePicker3.Name = "dateTimePicker3";
-            dateTimePicker3.Size = new Size(200, 23);
-            dateTimePicker3.TabIndex = 3;
-            dateTimePicker3.ValueChanged += dateTimePicker3_ValueChanged;
+            dtpdateLim.Location = new Point(322, 257);
+            dtpdateLim.Name = "dtpdateLim";
+            dtpdateLim.Size = new Size(200, 23);
+            dtpdateLim.TabIndex = 3;
+            dtpdateLim.ValueChanged += dateTimePicker3_ValueChanged;
             // 
-            // numericUpDown1
+            // nudnbPlaces
             // 
-            numericUpDown1.Location = new Point(321, 275);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(200, 23);
-            numericUpDown1.TabIndex = 4;
-            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
+            nudnbPlaces.Location = new Point(322, 286);
+            nudnbPlaces.Name = "nudnbPlaces";
+            nudnbPlaces.Size = new Size(200, 23);
+            nudnbPlaces.TabIndex = 4;
+            nudnbPlaces.ValueChanged += numericUpDown1_ValueChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(359, 126);
+            label1.Location = new Point(360, 137);
             label1.Name = "label1";
             label1.Size = new Size(120, 15);
             label1.TabIndex = 5;
@@ -96,7 +96,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(283, 167);
+            label2.Location = new Point(284, 178);
             label2.Name = "label2";
             label2.Size = new Size(32, 15);
             label2.TabIndex = 6;
@@ -106,7 +106,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(235, 194);
+            label3.Location = new Point(236, 205);
             label3.Name = "label3";
             label3.Size = new Size(80, 15);
             label3.TabIndex = 7;
@@ -115,7 +115,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(252, 221);
+            label4.Location = new Point(253, 232);
             label4.Name = "label4";
             label4.Size = new Size(63, 15);
             label4.TabIndex = 8;
@@ -124,11 +124,12 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(190, 277);
+            label5.Location = new Point(208, 288);
             label5.Name = "label5";
-            label5.Size = new Size(125, 15);
+            label5.Size = new Size(101, 15);
             label5.TabIndex = 9;
-            label5.Text = "nombre de participant";
+            label5.Text = "nombre de places";
+            label5.Click += label5_Click;
             // 
             // button1
             // 
@@ -143,7 +144,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(183, 252);
+            label6.Location = new Point(184, 263);
             label6.Name = "label6";
             label6.Size = new Size(132, 15);
             label6.TabIndex = 11;
@@ -161,25 +162,26 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(numericUpDown1);
-            Controls.Add(dateTimePicker3);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(textBox1);
+            Controls.Add(nudnbPlaces);
+            Controls.Add(dtpdateLim);
+            Controls.Add(dtpdateFin);
+            Controls.Add(dtpdateDeb);
+            Controls.Add(tbnom);
             Name = "ajoutHackathon";
-            Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            Text = "ajoutHackathon";
+            Load += ajoutHackathon_Load;
+            ((System.ComponentModel.ISupportInitialize)nudnbPlaces).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
-        private DateTimePicker dateTimePicker3;
-        private NumericUpDown numericUpDown1;
+        private TextBox tbnom;
+        private DateTimePicker dtpdateDeb;
+        private DateTimePicker dtpdateFin;
+        private DateTimePicker dtpdateLim;
+        private NumericUpDown nudnbPlaces;
         private Label label1;
         private Label label2;
         private Label label3;
