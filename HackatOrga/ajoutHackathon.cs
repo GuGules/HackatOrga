@@ -47,12 +47,16 @@ namespace HackatOrga
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ajoutHackathon_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void ajoutHackathon_Load(object sender, EventArgs e)
+        private void bajout_Click(object sender, EventArgs e)
         {
             Hackathon hackathon = new Hackathon
             {
@@ -60,15 +64,10 @@ namespace HackatOrga
                 dateDeb = dtpdateDeb.Value,
                 dateLim = dtpdateLim.Value,
                 dateFin = dtpdateFin.Value,
-                nbPlaces = nudnbPlaces.Value
+                nbPlaces = nudnbPlaces.Value,
             };
             cnx.Hackathons.Add(hackathon);
             cnx.SaveChanges();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

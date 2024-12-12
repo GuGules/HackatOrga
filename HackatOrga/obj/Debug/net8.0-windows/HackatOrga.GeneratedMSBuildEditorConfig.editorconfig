@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HackatOrga
-build_property.ProjectDir = C:\Users\lpicart\Source\Repos\HackatOrga\HackatOrga\
+build_property.ProjectDir = C:\Users\lpicart\source\repos\HackatOrga\HackatOrga\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

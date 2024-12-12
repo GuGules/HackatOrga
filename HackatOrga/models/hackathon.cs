@@ -14,12 +14,16 @@ namespace HackatOrga.models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int hackathonId { get; set; }
         public string nom { get; set; }
+        [Column("date_debut")]
         public DateTime dateDeb { get; set; }
+        [Column("date_limite_reg")]
         public DateTime dateLim { get; set; }
+        [Column("date_fin")]
         public DateTime dateFin { get; set; }
+        [Column("nb_places")]
         public decimal nbPlaces { get; set; }
         [ForeignKey("hackathonId")]
-        public List<Inscription>? Inscriptions { get; set; }
+        public ICollection<Inscription> Inscriptions { get; set; }
         [ForeignKey("hackathonId")]
          public ICollection<Evenement> evenements { get; set; }
     }

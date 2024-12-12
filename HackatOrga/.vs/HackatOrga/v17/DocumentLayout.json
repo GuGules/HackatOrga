@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\hackathon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\hackathon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\mondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\mondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\ajouthackathon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:ajouthackathon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +31,16 @@
       "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:ajouthackathon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\evenement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\participantatelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\participantatelier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\hackathon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\hackathon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\inscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\mondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\mondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|c:\\users\\lpicart\\source\\repos\\hackatorga\\hackatorga\\ajouthackathon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31366168-B216-443C-B7EA-7C6F5FC262AF}|HackatOrga.csproj|solutionrelative:ajouthackathon.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,94 +50,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 309,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "inscription.cs",
-              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\inscription.cs",
-              "RelativeDocumentMoniker": "models\\inscription.cs",
-              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\inscription.cs",
-              "RelativeToolTip": "models\\inscription.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:39:12.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MonDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\MonDbContext.cs",
-              "RelativeDocumentMoniker": "models\\MonDbContext.cs",
-              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\MonDbContext.cs",
-              "RelativeToolTip": "models\\MonDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:25:39.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ParticipantAtelier.cs",
-              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\ParticipantAtelier.cs",
-              "RelativeDocumentMoniker": "models\\ParticipantAtelier.cs",
-              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\ParticipantAtelier.cs",
-              "RelativeToolTip": "models\\ParticipantAtelier.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:34:06.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ajoutHackathon.cs",
               "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\ajoutHackathon.cs",
               "RelativeDocumentMoniker": "ajoutHackathon.cs",
               "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\ajoutHackathon.cs",
               "RelativeToolTip": "ajoutHackathon.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAIA6wEUAAAAJAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAIA2wEIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T15:58:12.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "participant.cs",
-              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\participant.cs",
-              "RelativeDocumentMoniker": "models\\participant.cs",
-              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\participant.cs",
-              "RelativeToolTip": "models\\participant.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:50:55.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "hackathon.cs",
               "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\hackathon.cs",
               "RelativeDocumentMoniker": "models\\hackathon.cs",
               "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\hackathon.cs",
               "RelativeToolTip": "models\\hackathon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA/AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T13:25:57.303Z",
               "EditorCaption": ""
@@ -141,40 +85,99 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "inscription.cs",
+              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\inscription.cs",
+              "RelativeDocumentMoniker": "models\\inscription.cs",
+              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\inscription.cs",
+              "RelativeToolTip": "models\\inscription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:39:12.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "evenement.cs",
               "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\evenement.cs",
               "RelativeDocumentMoniker": "models\\evenement.cs",
               "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\evenement.cs",
               "RelativeToolTip": "models\\evenement.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAiAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:29:00.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:29:00.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:51:53.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MonDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\MonDbContext.cs",
+              "RelativeDocumentMoniker": "models\\MonDbContext.cs",
+              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\MonDbContext.cs",
+              "RelativeToolTip": "models\\MonDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:25:39.696Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "participant.cs",
+              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\participant.cs",
+              "RelativeDocumentMoniker": "models\\participant.cs",
+              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\participant.cs",
+              "RelativeToolTip": "models\\participant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T10:50:55.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ParticipantAtelier.cs",
+              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\ParticipantAtelier.cs",
+              "RelativeDocumentMoniker": "models\\ParticipantAtelier.cs",
+              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\models\\ParticipantAtelier.cs",
+              "RelativeToolTip": "models\\ParticipantAtelier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:34:06.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ajoutHackathon.cs [Conception]",
               "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\ajoutHackathon.cs",
               "RelativeDocumentMoniker": "ajoutHackathon.cs",
               "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\ajoutHackathon.cs [Conception]",
               "RelativeToolTip": "ajoutHackathon.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:23:44.5Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2024-12-03T10:23:44.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "DocumentIndex": 9,
+              "Title": "ajoutHackathon.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\ajoutHackathon.Designer.cs",
+              "RelativeDocumentMoniker": "ajoutHackathon.Designer.cs",
+              "ToolTip": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga\\ajoutHackathon.Designer.cs",
+              "RelativeToolTip": "ajoutHackathon.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T15:51:53.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T13:16:46.135Z"
             }
           ]
         }

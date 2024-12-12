@@ -17,13 +17,15 @@ namespace HackatOrga.models
         public DateTime date { get; set; }
         public TimeOnly duree { get; set; }
         public string salle { get; set; }
-        [ForeignKey(nameof(Hackathon))] 
+        [ForeignKey(nameof(Hackathon))]
+        [Column("idHackathon")]
         public int hackathonId { get; set; }
         public virtual Hackathon Hackathon { get; set; }
     }
 
     public class Atelier : Evenement
     {
+        [Column("nb_places")]
         public int nbPlaces { get; set; }
         [ForeignKey("evenementId")]
         public ICollection<ParticipantAtelier> ParticipantAteliers { get; set; }

@@ -38,8 +38,8 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
-            button1 = new Button();
             label6 = new Label();
+            bajout = new Button();
             ((System.ComponentModel.ISupportInitialize)nudnbPlaces).BeginInit();
             SuspendLayout();
             // 
@@ -131,16 +131,6 @@
             label5.Text = "nombre de places";
             label5.Click += label5_Click;
             // 
-            // button1
-            // 
-            button1.Location = new Point(376, 323);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 10;
-            button1.Text = "ajouter";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // label6
             // 
             label6.AutoSize = true;
@@ -150,13 +140,23 @@
             label6.TabIndex = 11;
             label6.Text = "date limite d'inscription";
             // 
+            // bajout
+            // 
+            bajout.Location = new Point(377, 328);
+            bajout.Name = "bajout";
+            bajout.Size = new Size(75, 23);
+            bajout.TabIndex = 12;
+            bajout.Text = "ajouter";
+            bajout.UseVisualStyleBackColor = true;
+            bajout.Click += bajout_Click;
+            // 
             // ajoutHackathon
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(bajout);
             Controls.Add(label6);
-            Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -187,7 +187,7 @@
         private Label label3;
         private Label label4;
         private Label label5;
-        private Button button1;
         private Label label6;
+        private Button bajout;
     }
 }
