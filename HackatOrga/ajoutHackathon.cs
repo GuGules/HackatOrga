@@ -2,6 +2,7 @@ using HackatOrga.models;
 using HackatOrga.Models;
 using System.Net;
 
+
 namespace HackatOrga
 {
     public partial class ajoutHackathon : Form
@@ -66,8 +67,9 @@ namespace HackatOrga
                 dateFin = dtpdateFin.Value,
                 nbPlaces = nudnbPlaces.Value,
             };
-            cnx.Hackathons.Add(hackathon);
-            cnx.SaveChanges();
+            Console.WriteLine(hackathon);
+            //cnx.Hackathons.Add(hackathon);
+            //cnx.SaveChanges();
         }
     }
 }
