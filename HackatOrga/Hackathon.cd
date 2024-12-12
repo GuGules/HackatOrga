@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HackatOrga.models.Evenement">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAEAQEAAAA=</HashCode>
+      <FileName>models\evenement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HackatOrga.models.Atelier">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>models\evenement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HackatOrga.models.Conf">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>models\evenement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HackatOrga.models.Hackathon">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAgEAAAAAAAAAAAIAAAAwQAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>models\hackathon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HackatOrga.models.Inscription">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAACAAAAMAAAA=</HashCode>
+      <FileName>models\inscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HackatOrga.Models.MonDbContext">
+    <Position X="4.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAQAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAoA=</HashCode>
+      <FileName>models\MonDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HackatOrga.models.Participant">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAIAAAAAAAoCAAAAAAAAAAAIE=</HashCode>
+      <FileName>models\participant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HackatOrga.models.ParticipantAtelier">
+    <Position X="7.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAgAAAAIAgAAAAAIAAAAAAEAAAAAAA=</HashCode>
+      <FileName>models\ParticipantAtelier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
