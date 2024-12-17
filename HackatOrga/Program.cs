@@ -1,3 +1,4 @@
+using HackatOrga.models;
 using HackatOrga.Models;
 
 namespace HackatOrga

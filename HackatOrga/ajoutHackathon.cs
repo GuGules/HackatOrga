@@ -48,29 +48,28 @@ namespace HackatOrga
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void ajoutHackathon_Load(object sender, EventArgs e)
         {
-            Hackathon hackathon = new Hackathon
-            {
-                nom = tbnom.Text,
-                dateDeb = dtpdateDeb.Value,
-                dateLim = dtpdateLim.Value,
-                dateFin = dtpdateFin.Value,
-                nbPlaces = nudnbPlaces.Value
-            };
-            Console.WriteLine(hackathon);
-            //cnx.Hackathons.Add(hackathon);
-            //cnx.SaveChanges();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void bajout_Click(object sender, EventArgs e)
+        {
+            if (dtpdateDeb.Value > dtpdateLim.Value && dtpdateDeb.Value < dtpdateFin.Value)
+            {
+                Hackathon hackathon = new Hackathon();
+                hackathon.nom = tbnom.Text;
+                hackathon.dateDeb = dtpdateDeb.Value;
+                hackathon.dateLim = dtpdateLim.Value;
+                hackathon.dateFin = dtpdateFin.Value;
+                hackathon.nbPlaces = nudnbPlaces.Value;
+                cnx.Hackathons.Add(hackathon);
+                cnx.SaveChanges();
+            }
         }
     }
 }

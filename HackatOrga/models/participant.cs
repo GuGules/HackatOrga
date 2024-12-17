@@ -18,8 +18,7 @@ namespace HackatOrga.models
         public string mail {  get; set; }
         public DateTime date_naissance {  get; set; }
         public string urlportfolio { get; set; }
-
         [ForeignKey("participantId")]
-        public List<Inscription> Inscriptions { get; set; }
-     }
+        public ICollection<Inscription> Inscriptions { get; set; }
+    }
 }

@@ -11,14 +11,15 @@ using HackatOrga.models;
 namespace HackatOrga.models
 {
     [Table("inscription")]
-    [PrimaryKey(nameof(hackathonId), nameof(participantId))]
-
     public class Inscription
     {
-        public int hackathonId { get; set; }
-        public int participantId { get; set; }
+        public int inscriptionId {  get; set; }
         public DateTime date_Saisie { get; set; }
-        public Hackathon Hackathon { get; set; }
-        public Participant Participant { get; set; }
+        [ForeignKey(nameof(Hackathon))] /// clé étrangère
+        public int hackathonId { get; set; }
+        public virtual Hackathon Hackathon { get; set; }
+        [ForeignKey(nameof(Participant))] /// clé étrangère
+        public int participantId { get; set; }
+        public virtual Participant Participant { get; set; }
     }
 }
