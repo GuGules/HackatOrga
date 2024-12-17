@@ -9,7 +9,7 @@ using HackatOrga.models;
 namespace HackatOrga.models
 {
     [Table("evenement")]
-    public abstract class Evenement
+    public class Evenement
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int evenementId { get; set; }
@@ -20,6 +20,7 @@ namespace HackatOrga.models
         [ForeignKey(nameof(Hackathon))]
         [Column("idHackathon")]
         public int hackathonId { get; set; }
+
         public virtual Hackathon Hackathon { get; set; }
     }
 

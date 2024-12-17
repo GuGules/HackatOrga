@@ -12,6 +12,7 @@ namespace HackatOrga.models
     public class Hackathon
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Column("id")]
         public int hackathonId { get; set; }
         public string nom { get; set; }
         [Column("date_debut")]

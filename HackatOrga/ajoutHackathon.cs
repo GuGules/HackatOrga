@@ -59,17 +59,17 @@ namespace HackatOrga
 
         private void bajout_Click(object sender, EventArgs e)
         {
-            Hackathon hackathon = new Hackathon
+            if (dtpdateDeb.Value > dtpdateLim.Value && dtpdateDeb.Value < dtpdateFin.Value)
             {
-                nom = tbnom.Text,
-                dateDeb = dtpdateDeb.Value,
-                dateLim = dtpdateLim.Value,
-                dateFin = dtpdateFin.Value,
-                nbPlaces = nudnbPlaces.Value,
-            };
-            Console.WriteLine(hackathon);
-            //cnx.Hackathons.Add(hackathon);
-            //cnx.SaveChanges();
+                Hackathon hackathon = new Hackathon();
+                hackathon.nom = tbnom.Text;
+                hackathon.dateDeb = dtpdateDeb.Value;
+                hackathon.dateLim = dtpdateLim.Value;
+                hackathon.dateFin = dtpdateFin.Value;
+                hackathon.nbPlaces = nudnbPlaces.Value;
+                cnx.Hackathons.Add(hackathon);
+                cnx.SaveChanges();
+            }
         }
     }
 }
