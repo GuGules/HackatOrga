@@ -22,7 +22,7 @@ namespace HackatOrga.models
         [Column("date_fin")]
         public DateTime dateFin { get; set; }
         [Column("nb_places")]
-        public decimal nbPlaces { get; set; }
+        public int nbPlaces { get; set; }
         [ForeignKey("hackathonId")]
         public ICollection<Inscription> Inscriptions { get; set; }
         [ForeignKey("hackathonId")]

@@ -66,7 +66,7 @@ namespace HackatOrga
                 hackathon.dateDeb = dtpdateDeb.Value;
                 hackathon.dateLim = dtpdateLim.Value;
                 hackathon.dateFin = dtpdateFin.Value;
-                hackathon.nbPlaces = nudnbPlaces.Value;
+                hackathon.nbPlaces = (int)nudnbPlaces.Value;
                 cnx.Hackathons.Add(hackathon);
                 cnx.SaveChanges();
             }
