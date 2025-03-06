@@ -12,13 +12,14 @@ namespace HackatOrga.models
     public abstract class Evenement
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int evenementId { get; set; }
+        public int id { get; set; }
         public string nom { get; set; }
         public DateTime date { get; set; }
         public TimeOnly duree { get; set; }
         public string salle { get; set; }
 
         [ForeignKey(nameof(Hackathon))]
+
         [Column("idHackathon")]
         public int hackathonId { get; set; }
 

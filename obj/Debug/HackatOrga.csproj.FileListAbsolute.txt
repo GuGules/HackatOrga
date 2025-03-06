@@ -1,9 +1,0 @@
-C:\Users\gugul\source\repos\HackatOrga\bin\Debug\HackatOrga.exe.config
-C:\Users\gugul\source\repos\HackatOrga\bin\Debug\HackatOrga.exe
-C:\Users\gugul\source\repos\HackatOrga\bin\Debug\HackatOrga.pdb
-C:\Users\gugul\source\repos\HackatOrga\obj\Debug\HackatOrga.csproj.AssemblyReference.cache
-C:\Users\gugul\source\repos\HackatOrga\obj\Debug\HackatOrga.Properties.Resources.resources
-C:\Users\gugul\source\repos\HackatOrga\obj\Debug\HackatOrga.csproj.GenerateResource.cache
-C:\Users\gugul\source\repos\HackatOrga\obj\Debug\HackatOrga.csproj.CoreCompileInputs.cache
-C:\Users\gugul\source\repos\HackatOrga\obj\Debug\HackatOrga.exe
-C:\Users\gugul\source\repos\HackatOrga\obj\Debug\HackatOrga.pdb

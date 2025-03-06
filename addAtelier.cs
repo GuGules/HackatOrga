@@ -36,12 +36,17 @@ namespace HackatOrga
             Program.cnx.Ateliers.Add(at);
             Program.cnx.SaveChanges();
 
+            MessageBox.Show("Atelier enregistré");
+            this.Close();
+
 
         }
 
         private void addAtelier_Load(object sender, EventArgs e)
         {
             durationTp.Format = DateTimePickerFormat.Time;
+            hackathonCbx.DataSource = Program.cnx.Hackathons.ToList();
+            hackathonCbx.DisplayMember = "nom";
             
         }
     }

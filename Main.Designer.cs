@@ -41,6 +41,10 @@
             gérerAteliersToolStripMenuItem = new ToolStripMenuItem();
             créerAtelierToolStripMenuItem = new ToolStripMenuItem();
             modifierAtelierToolStripMenuItem = new ToolStripMenuItem();
+            listerConférencesToolStripMenuItem = new ToolStripMenuItem();
+            gérerConférencesToolStripMenuItem = new ToolStripMenuItem();
+            programmerConférenceToolStripMenuItem = new ToolStripMenuItem();
+            modifierConférenceToolStripMenuItem = new ToolStripMenuItem();
             participantsToolStripMenuItem = new ToolStripMenuItem();
             gérerParticipantsToolStripMenuItem = new ToolStripMenuItem();
             ajouterUnParticipantsToolStripMenuItem = new ToolStripMenuItem();
@@ -109,7 +113,7 @@
             // 
             // ateliersToolStripMenuItem
             // 
-            ateliersToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { listerAteliersToolStripMenuItem, gérerAteliersToolStripMenuItem });
+            ateliersToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { listerAteliersToolStripMenuItem, gérerAteliersToolStripMenuItem, listerConférencesToolStripMenuItem, gérerConférencesToolStripMenuItem });
             ateliersToolStripMenuItem.Name = "ateliersToolStripMenuItem";
             ateliersToolStripMenuItem.Size = new Size(83, 20);
             ateliersToolStripMenuItem.Text = "Evenements";
@@ -140,6 +144,35 @@
             modifierAtelierToolStripMenuItem.Name = "modifierAtelierToolStripMenuItem";
             modifierAtelierToolStripMenuItem.Size = new Size(156, 22);
             modifierAtelierToolStripMenuItem.Text = "Modifier Atelier";
+            modifierAtelierToolStripMenuItem.Click += modifierAtelierToolStripMenuItem_Click;
+            // 
+            // listerConférencesToolStripMenuItem
+            // 
+            listerConférencesToolStripMenuItem.Name = "listerConférencesToolStripMenuItem";
+            listerConférencesToolStripMenuItem.Size = new Size(180, 22);
+            listerConférencesToolStripMenuItem.Text = "Lister Conférences";
+            listerConférencesToolStripMenuItem.Click += listerConférencesToolStripMenuItem_Click;
+            // 
+            // gérerConférencesToolStripMenuItem
+            // 
+            gérerConférencesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { programmerConférenceToolStripMenuItem, modifierConférenceToolStripMenuItem });
+            gérerConférencesToolStripMenuItem.Name = "gérerConférencesToolStripMenuItem";
+            gérerConférencesToolStripMenuItem.Size = new Size(180, 22);
+            gérerConférencesToolStripMenuItem.Text = "Gérer Conférences";
+            // 
+            // programmerConférenceToolStripMenuItem
+            // 
+            programmerConférenceToolStripMenuItem.Name = "programmerConférenceToolStripMenuItem";
+            programmerConférenceToolStripMenuItem.Size = new Size(205, 22);
+            programmerConférenceToolStripMenuItem.Text = "Programmer Conférence";
+            programmerConférenceToolStripMenuItem.Click += programmerConférenceToolStripMenuItem_Click;
+            // 
+            // modifierConférenceToolStripMenuItem
+            // 
+            modifierConférenceToolStripMenuItem.Name = "modifierConférenceToolStripMenuItem";
+            modifierConférenceToolStripMenuItem.Size = new Size(205, 22);
+            modifierConférenceToolStripMenuItem.Text = "Modifier Conférence";
+            modifierConférenceToolStripMenuItem.Click += modifierConférenceToolStripMenuItem_Click;
             // 
             // participantsToolStripMenuItem
             // 
@@ -209,5 +242,9 @@
         private ToolStripMenuItem listerLesParticipantsToolStripMenuItem;
         private ToolStripMenuItem créerAtelierToolStripMenuItem;
         private ToolStripMenuItem modifierAtelierToolStripMenuItem;
+        private ToolStripMenuItem listerConférencesToolStripMenuItem;
+        private ToolStripMenuItem gérerConférencesToolStripMenuItem;
+        private ToolStripMenuItem programmerConférenceToolStripMenuItem;
+        private ToolStripMenuItem modifierConférenceToolStripMenuItem;
     }
 }

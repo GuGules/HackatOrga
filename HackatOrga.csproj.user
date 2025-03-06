@@ -4,13 +4,22 @@
     <Compile Update="addAtelier.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="addConference.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ajoutHackathon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
+    <Compile Update="editAtelier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editConf.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="listeAteliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="listeConference.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="listeHackathon.cs">

@@ -22,6 +22,8 @@ namespace HackatOrga.Models ///////mettre le nom du projet
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Evenement>().HasDiscriminator<string>("type").HasValue<Conf>("conf");
         }
     }
 }

@@ -51,5 +51,29 @@ namespace HackatOrga
             listeAteliers listeAt = new listeAteliers();
             listeAt.Show();
         }
+
+        private void modifierAtelierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            editAtelier modifAt = new editAtelier();
+            modifAt.Show();
+        }
+
+        private void programmerConférenceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            addConference addConf = new addConference();
+            addConf.Show();
+        }
+
+        private void listerConférencesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            listeConference listConf = new listeConference();
+            listConf.Show();
+        }
+
+        private void modifierConférenceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            editConf eC = new editConf();
+            eC.Show();
+        }
     }
 }
