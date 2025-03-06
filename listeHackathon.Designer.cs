@@ -1,16 +1,16 @@
 ﻿namespace HackatOrga
 {
-    partial class Form1
+    partial class listeHackathon
     {
         /// <summary>
-        /// Variable nécessaire au concepteur.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Nettoyage des ressources utilisées.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,21 +20,67 @@
             base.Dispose(disposing);
         }
 
-        #region Code généré par le Concepteur Windows Form
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
-        /// le contenu de cette méthode avec l'éditeur de code.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            hackathonList = new DataGridView();
+            closeListBtn = new Button();
+            addHackathonBtn = new Button();
+            ((System.ComponentModel.ISupportInitialize)hackathonList).BeginInit();
+            SuspendLayout();
+            // 
+            // hackathonList
+            // 
+            hackathonList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            hackathonList.Location = new Point(12, 12);
+            hackathonList.Name = "hackathonList";
+            hackathonList.Size = new Size(627, 426);
+            hackathonList.TabIndex = 0;
+            // 
+            // closeListBtn
+            // 
+            closeListBtn.Location = new Point(645, 12);
+            closeListBtn.Name = "closeListBtn";
+            closeListBtn.Size = new Size(150, 23);
+            closeListBtn.TabIndex = 1;
+            closeListBtn.Text = "Fermer la liste";
+            closeListBtn.UseVisualStyleBackColor = true;
+            closeListBtn.Click += closeListBtn_Click;
+            // 
+            // addHackathonBtn
+            // 
+            addHackathonBtn.Location = new Point(645, 41);
+            addHackathonBtn.Name = "addHackathonBtn";
+            addHackathonBtn.Size = new Size(150, 23);
+            addHackathonBtn.TabIndex = 2;
+            addHackathonBtn.Text = "Ajouter un Hackathon";
+            addHackathonBtn.UseVisualStyleBackColor = true;
+            addHackathonBtn.Click += addHackathonBtn_Click;
+            // 
+            // listeHackathon
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(addHackathonBtn);
+            Controls.Add(closeListBtn);
+            Controls.Add(hackathonList);
+            Name = "listeHackathon";
+            Text = "Liste des hackathons";
+            Load += listeHackathon_Load;
+            ((System.ComponentModel.ISupportInitialize)hackathonList).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private DataGridView hackathonList;
+        private Button closeListBtn;
+        private Button addHackathonBtn;
     }
 }
-

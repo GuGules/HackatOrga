@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackatOrga", "HackatOrga.csproj", "{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackatOrga", "HackatOrga.csproj", "{31366168-B216-443C-B7EA-7C6F5FC262AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14AEA741-2AE7-48BE-964A-C98EF4B6FF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31366168-B216-443C-B7EA-7C6F5FC262AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31366168-B216-443C-B7EA-7C6F5FC262AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31366168-B216-443C-B7EA-7C6F5FC262AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31366168-B216-443C-B7EA-7C6F5FC262AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07F65EA3-94EF-4208-AEC7-6110376019C4}
 	EndGlobalSection
 EndGlobal
