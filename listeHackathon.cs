@@ -10,11 +10,34 @@ using System.Windows.Forms;
 
 namespace HackatOrga
 {
-    public partial class Form1 : Form
+    public partial class listeHackathon : Form
     {
-        public Form1()
+        public listeHackathon()
         {
             InitializeComponent();
+        }
+
+        private void closeListBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void listeHackathon_Load(object sender, EventArgs e)
+        {
+            hackathonList.DataSource = Program.cnx.Hackathons.ToList();
+        }
+
+        private void addHackathonBtn_Click(object sender, EventArgs e)
+        {
+            ajoutHackathon addForm = new ajoutHackathon();
+            addForm.Show();
+        }
+
+        private void manageHackathonBtn_Click(object sender, EventArgs e)
+        {
+            
+
+            MessageBox.Show("Fonctionnalité à venir");
         }
     }
 }

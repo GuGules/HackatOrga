@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="addAtelier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="addConference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ajoutHackathon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editAtelier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="editConf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="listeAteliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="listeConference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="listeHackathon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="modifierHackathon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
