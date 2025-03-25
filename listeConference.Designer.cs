@@ -31,6 +31,7 @@
             confDGV = new DataGridView();
             closeBtn = new Button();
             newConfBtn = new Button();
+            sendEmail = new Button();
             ((System.ComponentModel.ISupportInitialize)confDGV).BeginInit();
             SuspendLayout();
             // 
@@ -62,11 +63,22 @@
             newConfBtn.UseVisualStyleBackColor = true;
             newConfBtn.Click += newConfBtn_Click;
             // 
+            // sendEmail
+            // 
+            sendEmail.Location = new Point(583, 70);
+            sendEmail.Name = "sendEmail";
+            sendEmail.Size = new Size(185, 23);
+            sendEmail.TabIndex = 3;
+            sendEmail.Text = "Envoyer un rappel";
+            sendEmail.UseVisualStyleBackColor = true;
+            sendEmail.Click += sendEmail_Click;
+            // 
             // listeConference
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(782, 480);
+            Controls.Add(sendEmail);
             Controls.Add(newConfBtn);
             Controls.Add(closeBtn);
             Controls.Add(confDGV);
@@ -82,5 +94,6 @@
         private DataGridView confDGV;
         private Button closeBtn;
         private Button newConfBtn;
+        private Button sendEmail;
     }
 }

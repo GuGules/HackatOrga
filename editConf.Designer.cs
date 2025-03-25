@@ -51,6 +51,8 @@
             groupBox5 = new GroupBox();
             confCbx = new ComboBox();
             label8 = new Label();
+            emailTbx = new TextBox();
+            label9 = new Label();
             groupBox2.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -62,7 +64,7 @@
             // 
             groupBox2.Controls.Add(themeTbx);
             groupBox2.Controls.Add(label1);
-            groupBox2.Location = new Point(312, 76);
+            groupBox2.Location = new Point(307, 76);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(335, 69);
             groupBox2.TabIndex = 17;
@@ -89,7 +91,7 @@
             // 
             groupBox4.Controls.Add(cancelBtn);
             groupBox4.Controls.Add(button1);
-            groupBox4.Location = new Point(312, 224);
+            groupBox4.Location = new Point(312, 275);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(335, 79);
             groupBox4.TabIndex = 16;
@@ -120,7 +122,7 @@
             // 
             groupBox3.Controls.Add(hackathonCbx);
             groupBox3.Controls.Add(label6);
-            groupBox3.Location = new Point(312, 151);
+            groupBox3.Location = new Point(307, 153);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(335, 67);
             groupBox3.TabIndex = 15;
@@ -146,6 +148,8 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(emailTbx);
+            groupBox1.Controls.Add(label9);
             groupBox1.Controls.Add(durationTp);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(intervenantTbx);
@@ -158,7 +162,7 @@
             groupBox1.Controls.Add(label2);
             groupBox1.Location = new Point(6, 76);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(300, 227);
+            groupBox1.Size = new Size(300, 272);
             groupBox1.TabIndex = 14;
             groupBox1.TabStop = false;
             groupBox1.Text = "Informations sur l'évènement";
@@ -166,7 +170,7 @@
             // durationTp
             // 
             durationTp.CustomFormat = "HH:MM:ss";
-            durationTp.Location = new Point(75, 194);
+            durationTp.Location = new Point(75, 231);
             durationTp.Name = "durationTp";
             durationTp.ShowUpDown = true;
             durationTp.Size = new Size(200, 23);
@@ -175,7 +179,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(26, 199);
+            label7.Location = new Point(26, 236);
             label7.Name = "label7";
             label7.Size = new Size(47, 15);
             label7.TabIndex = 14;
@@ -274,11 +278,27 @@
             label8.TabIndex = 14;
             label8.Text = "Conférence :";
             // 
+            // emailTbx
+            // 
+            emailTbx.Location = new Point(76, 192);
+            emailTbx.Name = "emailTbx";
+            emailTbx.Size = new Size(200, 23);
+            emailTbx.TabIndex = 17;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(26, 196);
+            label9.Name = "label9";
+            label9.Size = new Size(42, 15);
+            label9.TabIndex = 16;
+            label9.Text = "Email :";
+            // 
             // editConf
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(654, 315);
+            ClientSize = new Size(654, 360);
             Controls.Add(groupBox5);
             Controls.Add(groupBox2);
             Controls.Add(groupBox4);
@@ -324,5 +344,7 @@
         private GroupBox groupBox5;
         private ComboBox confCbx;
         private Label label8;
+        private TextBox emailTbx;
+        private Label label9;
     }
 }
