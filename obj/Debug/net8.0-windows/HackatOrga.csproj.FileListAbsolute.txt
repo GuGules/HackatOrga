@@ -109,3 +109,4 @@ C:\Users\gugul\Projets\Hackathon\HackatOrga\obj\Debug\net8.0-windows\HackatOrga.
 C:\Users\gugul\Projets\Hackathon\HackatOrga\obj\Debug\net8.0-windows\HackatOrga.addConference.resources
 C:\Users\gugul\Projets\Hackathon\HackatOrga\obj\Debug\net8.0-windows\HackatOrga.listeConference.resources
 C:\Users\gugul\Projets\Hackathon\HackatOrga\obj\Debug\net8.0-windows\HackatOrga.editConf.resources
+C:\Users\gugul\Projets\Hackathon\HackatOrga\obj\Debug\net8.0-windows\HackatOrga.sendEmail.resources

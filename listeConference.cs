@@ -32,5 +32,11 @@ namespace HackatOrga
             addConference addC = new addConference();
             addC.Show();
         }
+
+        private void sendEmail_Click(object sender, EventArgs e)
+        {
+            sendEmail f = new sendEmail();
+            f.ShowDialog();
+        }
     }
 }

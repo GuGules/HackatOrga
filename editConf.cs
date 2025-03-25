@@ -65,6 +65,7 @@ namespace HackatOrga
             conference.Hackathon = Program.cnx.Hackathons.ToList()[hackathonCbx.SelectedIndex];
             conference.theme = themeTbx.Text;
             conference.intervenant = intervenantTbx.Text;
+            conference.emailIntervenant = emailTbx.Text;
             Program.cnx.SaveChanges();
             MessageBox.Show("Modifications Sauvegardées");
             this.Close();

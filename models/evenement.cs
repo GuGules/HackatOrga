@@ -38,5 +38,8 @@ namespace HackatOrga.models
     {
         public string intervenant { get; set; }
         public string theme { get; set; }
+
+        [Column("email_intervenant")]
+        public string emailIntervenant { get; set; }
     }
 }
