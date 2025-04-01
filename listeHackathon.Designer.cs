@@ -31,6 +31,7 @@
             hackathonList = new DataGridView();
             closeListBtn = new Button();
             addHackathonBtn = new Button();
+            printPDFBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)hackathonList).BeginInit();
             SuspendLayout();
             // 
@@ -62,11 +63,22 @@
             addHackathonBtn.UseVisualStyleBackColor = true;
             addHackathonBtn.Click += addHackathonBtn_Click;
             // 
+            // printPDFBtn
+            // 
+            printPDFBtn.Location = new Point(645, 70);
+            printPDFBtn.Name = "printPDFBtn";
+            printPDFBtn.Size = new Size(150, 23);
+            printPDFBtn.TabIndex = 3;
+            printPDFBtn.Text = "Imprimer les participants";
+            printPDFBtn.UseVisualStyleBackColor = true;
+            printPDFBtn.Click += printPDFBtn_Click;
+            // 
             // listeHackathon
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(printPDFBtn);
             Controls.Add(addHackathonBtn);
             Controls.Add(closeListBtn);
             Controls.Add(hackathonList);
@@ -82,5 +94,6 @@
         private DataGridView hackathonList;
         private Button closeListBtn;
         private Button addHackathonBtn;
+        private Button printPDFBtn;
     }
 }
