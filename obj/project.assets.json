@@ -2690,24 +2690,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gugul\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\lpicart\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gugul\\Projets\\Hackathon\\HackatOrga\\HackatOrga.csproj",
+      "projectUniqueName": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga.csproj",
       "projectName": "HackatOrga",
-      "projectPath": "C:\\Users\\gugul\\Projets\\Hackathon\\HackatOrga\\HackatOrga.csproj",
-      "packagesPath": "C:\\Users\\gugul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gugul\\Projets\\Hackathon\\HackatOrga\\obj\\",
+      "projectPath": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\HackatOrga.csproj",
+      "packagesPath": "C:\\Users\\lpicart\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lpicart\\source\\repos\\HackatOrga\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gugul\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\lpicart\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2715,6 +2710,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2732,8 +2728,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0-windows10.0.17763": {
@@ -2772,21 +2767,21 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.17763.57, 10.0.17763.57]"
+            "version": "[10.0.17763.31, 10.0.17763.31]"
           }
         ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
-          "Microsoft.Windows.SDK.NET.Ref.Windows": {
+          "Microsoft.Windows.SDK.NET.Ref": {
             "privateAssets": "all"
           },
           "Microsoft.WindowsDesktop.App.WindowsForms": {
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
